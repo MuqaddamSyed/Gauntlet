@@ -258,6 +258,7 @@ Apache-2.0
 ## 🎥 Demo
 
 [![Watch the demo](https://img.youtube.com/vi/_WSecqx_B-I/0.jpg)](https://youtu.be/_WSecqx_B-I)
+- ▶️ **Demo Video:** https://youtu.be/_WSecqx_B-I  
 
 ## 📝 Blog
 
