@@ -21,7 +21,7 @@ TRAINING_SERIES_PATH = os.path.abspath(os.path.join(METRICS_DIR, "training_serie
 HF_SPACE_URL = os.environ.get("HF_SPACE_URL", "https://huggingface.co/spaces/MuqaddamAbbas/OpenEnvGauntlet")
 GITHUB_URL = os.environ.get("GITHUB_URL", "https://github.com/MuqaddamSyed/Gauntlet")
 COLAB_URL = os.environ.get("COLAB_URL", "https://colab.research.google.com/drive/1Iobzr39dVYpYlPHeCrQBn8G11RjiUQTo?usp=drive_link")
-WRITEUP_URL = os.environ.get("WRITEUP_URL", "https://github.com/MuqaddamSyed/Gauntlet/blob/main/WRITEUP.md")
+WRITEUP_URL = os.environ.get("WRITEUP_URL", "https://github.com/MuqaddamSyed/Gauntlet/blob/main/blog.md")
 VIDEO_URL = os.environ.get("VIDEO_URL", "https://youtu.be/_WSecqx_B-I")
 
 # ---------------------------------------------------------------------------
@@ -1595,7 +1595,7 @@ def build_demo():
         gr.HTML(f"""
 <div class="dg-footer-links">
   <a class="dg-footer-link" href="{GITHUB_URL}" target="_blank" rel="noopener">GitHub</a>
-  <a class="dg-footer-link" href="{WRITEUP_URL}" target="_blank" rel="noopener">Writeup</a>
+  <a class="dg-footer-link" href="{WRITEUP_URL}" target="_blank" rel="noopener">Blog</a>
   <a class="dg-footer-link" href="{COLAB_URL}" target="_blank" rel="noopener">Colab</a>
   <a class="dg-footer-link" href="{HF_SPACE_URL}" target="_blank" rel="noopener">Space</a>
 </div>
