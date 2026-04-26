@@ -22,7 +22,7 @@ Currently, no standardized, open-source framework exists for this type of evalua
 
 We built an `OpenEnv`-compliant simulation where an LLM acts as an executive assistant over a compressed 3-week timeline. 
 
-![Architecture] /Users/abbas/delegation copy/architecture.png
+![Architecture] (architecture.png)
 
 ### Why the Executive Assistant Role?
 This role is the "Goldilocks zone" of agent capability. 

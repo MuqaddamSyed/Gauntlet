@@ -211,7 +211,7 @@ curl -X POST http://localhost:8000/step  -H 'Content-Type: application/json' \
 ## Run the demo locally
 
 ```bash
-git clone https://github.com/MuqaddamSyed/DelegationOpenEnv
+git clone https://github.com/MuqaddamSyed/Gauntlet
 cd DelegationOpenEnv
 pip install -e .
 python spaces/app.py
