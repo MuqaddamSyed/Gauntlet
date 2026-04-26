@@ -19,10 +19,10 @@ METRICS_DIR = os.path.join(os.path.dirname(__file__), "..", "public", "metrics")
 TRAINING_SERIES_PATH = os.path.abspath(os.path.join(METRICS_DIR, "training_series.json"))
 
 HF_SPACE_URL = os.environ.get("HF_SPACE_URL", "https://huggingface.co/spaces/MuqaddamAbbas/OpenEnvGauntlet")
-GITHUB_URL = os.environ.get("GITHUB_URL", "https://github.com/MuqaddamAbbas/delegation-gauntlet")
-COLAB_URL = os.environ.get("COLAB_URL", "https://colab.research.google.com/github/MuqaddamAbbas/delegation-gauntlet/blob/main/training/colab_train.ipynb")
-WRITEUP_URL = os.environ.get("WRITEUP_URL", "https://github.com/MuqaddamAbbas/delegation-gauntlet/blob/main/WRITEUP.md")
-VIDEO_URL = os.environ.get("VIDEO_URL", "")
+GITHUB_URL = os.environ.get("GITHUB_URL", "https://github.com/MuqaddamSyed/Gauntlet")
+COLAB_URL = os.environ.get("COLAB_URL", "https://colab.research.google.com/drive/1Iobzr39dVYpYlPHeCrQBn8G11RjiUQTo?usp=drive_link")
+WRITEUP_URL = os.environ.get("WRITEUP_URL", "https://github.com/MuqaddamSyed/Gauntlet/blob/main/WRITEUP.md")
+VIDEO_URL = os.environ.get("VIDEO_URL", "https://youtu.be/_WSecqx_B-I")
 
 # ---------------------------------------------------------------------------
 # Single source-of-truth color system

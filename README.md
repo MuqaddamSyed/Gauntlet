@@ -17,27 +17,6 @@ pinned: false
 [![TRL GRPO](https://img.shields.io/badge/Training-TRL%20GRPO-10B981)](https://huggingface.co/docs/trl)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-## Judges — start here
-
-| Material | Link |
-|---|---|
-| 🤗 Live demo (HF Space) | https://huggingface.co/spaces/MuqaddamAbbas/OpenEnvGauntlet |
-| 📝 Writeup / mini-blog | [`WRITEUP.md`](WRITEUP.md) |
-| 📓 Colab (reproduce training) | `training/colab_train.ipynb` |
-| 📦 Source | this repo |
-
-**Non-negotiables met:**
-
-| Requirement | Evidence |
-|---|---|
-| OpenEnv (latest) | `openenv.yaml` · `delegation_gauntlet/server/app.py` · `DelegationOpenEnv` wrapper |
-| TRL training script | `training/train_grpo.py` (`--train-grpo`) uses `GRPOTrainer` |
-| Real training evidence | `public/plots/*.png` · `public/metrics/*.json` |
-| Short writeup | [`WRITEUP.md`](WRITEUP.md) |
-| HF Space | [MuqaddamAbbas/OpenEnvGauntlet](https://huggingface.co/spaces/MuqaddamAbbas/OpenEnvGauntlet) |
-| README with motivation, env, results | this file |
-
----
 
 ## The framing
 
@@ -150,7 +129,7 @@ Each rubric is independently composable and usable as a standalone evaluation si
 
 ## Training (TRL GRPO)
 
-Model: Qwen2.5 1.5B Instruct · Trainer: `trl.GRPOTrainer`
+Model: Qwen2.5 0.5B Instruct · Trainer: `trl.GRPOTrainer`
 
 The reward function:
 
@@ -166,7 +145,7 @@ The reward function:
 # Reproduce training (local, GPU recommended)
 pip install -e '.[train]'
 python training/train_grpo.py --train-grpo \
-  --model-name Qwen/Qwen2.5-1.5B-Instruct \
+  --model-name Qwen/Qwen2.5-0.5B-Instruct \
   --steps 120 --eval-every 20 --episode-turns 60
 
 # Smoke run — no GPU, generates all plots

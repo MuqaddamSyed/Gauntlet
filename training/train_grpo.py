@@ -1291,7 +1291,7 @@ def main() -> None:
     parser.add_argument("--train-grpo", action="store_true", help="Run TRL GRPO training path (default if no mode set).")
     parser.add_argument("--qwen-eval", action="store_true", help="Run Qwen evaluation-only mode.")
     parser.add_argument("--model", type=str, default=None, help="Compatibility alias for --model-name")
-    parser.add_argument("--model-name", type=str, default="Qwen/Qwen2.5-1.5B-Instruct")
+    parser.add_argument("--model-name", type=str, default="Qwen/Qwen2.5-0.5B-Instruct")
     parser.add_argument("--episodes", type=int, default=10, help="Episodes for --qwen-eval")
     parser.add_argument("--steps", type=int, default=100)
     parser.add_argument("--eval-every", type=int, default=10)
