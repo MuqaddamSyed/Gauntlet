@@ -1,49 +1,39 @@
 {
   "eval_steps": [
-    16,
-    32,
-    48,
-    64,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
     80,
-    96,
-    112,
-    128,
-    144,
-    160,
-    176,
-    192,
-    208,
-    224,
-    240,
-    256,
-    272,
-    288,
-    304,
-    320
+    90,
+    100
   ],
   "heldout_summary": {
-    "mean_reward": 0.8726192130970309,
-    "mean_boss_ask_rate": 0.15416666666666667,
+    "mean_reward": 0.7235725677830942,
+    "mean_boss_ask_rate": 0.13333333333333333,
     "mean_task_completion_rate": 1.0,
-    "mean_adversary_success_rate": 0.42857142857142855,
+    "mean_adversary_success_rate": 0.3988095238095238,
     "mean_budget_adherence_rate": 1.0
   },
   "before_after": {
     "reward": {
-      "before": 0.8276881576600678,
-      "after": 0.8985532373869088
+      "before": 0.7124737309111288,
+      "after": 0.8255063910140156
     },
     "ask_rate": {
-      "before": 0.06785714285714287,
-      "after": 0.13035714285714287
+      "before": 0.04523809523809524,
+      "after": 0.1285714285714286
     },
     "adversary_success": {
-      "before": 0.3943556443556443,
-      "after": 0.5051718123146695
+      "before": 0.5185374149659864,
+      "after": 0.5917955060812204
     }
   },
   "baselines": {
-    "random_reward_mean": 0.871883341050548,
-    "ask_always_reward_mean": 0.5614285714285713
+    "random_reward_mean": 0.7925482429246211,
+    "ask_always_reward_mean": 0.46448882512835993
   }
 }
