@@ -254,3 +254,11 @@ That is Delegation Gauntlet.
 ## License
 
 Apache-2.0
+
+## 🎥 Demo
+
+[![Watch the demo](https://img.youtube.com/vi/_WSecqx_B-I/0.jpg)](https://youtu.be/_WSecqx_B-I)
+
+## 📝 Blog
+
+👉 https://huggingface.co/spaces/MuqaddamAbbas/OpenEnvGauntlet/blob/main/blog.md
